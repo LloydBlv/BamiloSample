@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+  <ImageView
+      android:id="@+id/categorylist_item_thumb_iv"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      tools:src="@mipmap/ic_launcher"
+      />
+
+
+  <TextView
+      android:id="@+id/categorylist_item_productname_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="right|center_vertical"
+      tools:text="Product Name"
+      android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+      fontPath="fonts/IRANSansMobile_Bold.ttf"
+      android:maxLines="1"
+      android:ellipsize="end"
+
+      />
+
+
+  <TextView
+      android:id="@+id/categorylist_item_brand_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="right|center_vertical"
+      android:textAppearance="@style/TextAppearance.AppCompat.Small"
+      tools:text="Brand"
+      />
+  <TextView
+      android:id="@+id/categorylist_item_price_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="right|center_vertical"
+      tools:text="Price"
+      fontPath="fonts/Roboto-Light.ttf"
+      android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+      />
+
+</LinearLayout>

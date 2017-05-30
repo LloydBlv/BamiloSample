@@ -1,0 +1,27 @@
+<resources>
+  <string name="app_name">BamiloTest</string>
+
+
+  <string name="connection_timeout_exception">خطا! اتمام زمان دسترسی به سرور</string>
+  <string name="server_error_502_503">در حال انجام تغییرات هستیم. تا دقایقی دیگر دوباره در دسترس
+        خواهیم بود.
+    </string>
+  <string name="not_connected_to_internet">اتصال به اینترنت برقرار نیست!</string>
+  <string name="server_error_invalid_response">مشکلی پیش آمده. لطفا با پشتیبانی تماس بگیرید. \r\n
+        (خطای ۴۲۲)
+    </string>
+  <string name="unhandled_exception">مشکلی پیش آمده. دوباره تلاش کنید.</string>
+
+  <string name="server_error_retry">خطایی پیش آمد. دوباره تلاش کنید</string>
+  <string name="no_internet_connection">اتصال به اینترنت برقرار نیست!</string>
+
+  <string name="press_again_to_exit">برای خروج مجددا کلید بازگشت را لمس نمایید</string>
+  <string name="try_again">تلاش مجدد</string>
+
+
+  <string name="internal_storage">Internal storage</string>
+  <string name="error">خطا</string>
+  <string name="ok">باشه</string>
+  <string name="empty_list_retry">هنوز اینجا خبری نیست!</string>
+  <string name="retry">تلاش مجدد</string>
+</resources>

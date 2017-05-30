@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:orientation="vertical"
+      >
+
+    <ImageView
+        android:id="@+id/details_activity_cover_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:id="@+id/details_activity_brand_tv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Brand"
+          fontPath="fonts/Roboto-Light.ttf"
+          android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+          android:gravity="right|center_vertical"
+          android:padding="10dp"
+          />
+
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/details_activity_carousel_rv"
+          android:layout_width="match_parent"
+          android:layout_height="128dp"
+          android:paddingRight="8dp"
+          android:paddingLeft="8dp"
+          android:clipToPadding="false"
+          />
+
+      <TextView
+          android:id="@+id/details_activity_prodname_tv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Product Name"
+          android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+          android:gravity="right|center_vertical"
+          android:padding="10dp"
+          />
+      <TextView
+          android:id="@+id/details_activity_price_tv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:text="Price"
+          android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+          android:gravity="right|center_vertical"
+          android:padding="10dp"
+          />
+
+      <RatingBar
+          android:layout_gravity="right"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:rating="4"
+          />
+
+    </LinearLayout>
+
+
+
+
+
+  </FrameLayout>
+
+
+</FrameLayout>
